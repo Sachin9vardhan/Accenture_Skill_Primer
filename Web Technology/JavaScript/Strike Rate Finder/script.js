@@ -5,7 +5,7 @@ function displayStrikeRate() {
         var run = document.getElementById("runs").value; 
         var strike_rate = ((run/ball)*100).toFixed(2); 
 
-        result = "Name: "+ name + "<br>" + "Runs Scored: " + run + "<br>" + "Balls Faced "+ ball + "<br>" + "Strike Rate: " + strike_rate; 
+        result = "Name : "+ name + "<br>" + "Runs Scored : " + run + "<br>" + "Balls Faced : "+ ball + "<br>" + "Strike Rate : " + strike_rate; 
         document.getElementById("result").innerHTML=result; 
     } 
     catch(err) { 
